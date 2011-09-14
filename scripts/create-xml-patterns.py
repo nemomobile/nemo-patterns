@@ -5,26 +5,23 @@ import sys, os
 import optparse
 from lxml import etree
 
-
 rpm_ns="http://linux.duke.edu/metadata/rpm"
 pattern_ns="http://novell.com/package/metadata/suse/pattern"
-NSMAP = {None : pattern_ns, "rpm": rpm_ns, "patterns": pattern_ns}
+NSMAP = {None : pattern_ns, "rpm": rpm_ns}
 
 def create_patterns(arch='i586', patterns_dir='patterns'):
-    xmlroot = etree.Element("patterns")
 
-    count = 0
     for f in os.listdir(patterns_dir):
         if not f.endswith('.yaml'):
             continue
         print "Working on %s" %f
-        count = count + 1
         stream = file("%s/%s" %(patterns_dir,f), 'r')
         y = yaml.load(stream)
         if y.has_key('Arch') and y['Arch'] != arch:
             print "Skipping pattern '%s' because architecture doesn't match ('%s' vs '%s')." % (y['Name'], y['Arch'], arch)
             continue
-        proot = etree.SubElement(xmlroot, "pattern",  nsmap=NSMAP)
+        
+        proot = etree.Element("pattern",  nsmap=NSMAP)
         etree.SubElement(proot, "name").text = y['Name']
         etree.SubElement(proot, "summary").text = y['Summary']
         etree.SubElement(proot, "description").text = y['Description']
@@ -54,13 +51,9 @@ def create_patterns(arch='i586', patterns_dir='patterns'):
             else:
                 entry = etree.SubElement(req, "{%s}entry" %rpm_ns)
                 entry.set("name", p)
-        pat_file = open("%s.xml" %(os.path.basename(f).split('.')[0]), 'w')
-        pat_file.write(str(etree.tostring(proot)))
-        pat_file.close()
 
-    xmlroot.set('count', "%d" %count)
-    tree = etree.ElementTree(xmlroot)
-    tree.write("patterns.xml")
+        tree = etree.ElementTree(proot)
+        tree.write("%s.xml" % (os.path.basename(f).split('.')[0]))
 
 
 if __name__ == '__main__':

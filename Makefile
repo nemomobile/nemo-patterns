@@ -12,8 +12,9 @@ else
 endif
 
 all: 
-	python scripts/merge-patterns.py -a ${ARCH}
-	xsltproc xsl/comps.xsl patterns.xml > group.xml
+	#python scripts/merge-patterns.py -a ${ARCH}
+	python scripts/create-xml-patterns.py -a ${ARCH}
+	#xsltproc xsl/comps.xsl patterns.xml > group.xml
 
 install:
 	install -d ${DESTDIR}/usr/share/package-groups

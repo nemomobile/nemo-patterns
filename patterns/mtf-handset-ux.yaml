@@ -1,0 +1,32 @@
+Description: MeeGo Touch Framework Handset UX
+Name: mtf-handset-ux
+Packages:
+- meegocontrolpanel-privatemodeapplet
+- meegotouch-compositor
+- meegotouch-controlpanel
+- meegotouch-demos
+- meegotouch-home
+- meegotouch-inputmethodbridges
+- meegotouch-systemui
+- meegotouch-systemui-screenlock-padlock
+- meegotouch-systemui-volume-fullscreen
+- meegotouchcp-about
+- meegotouchcp-battery
+- meegotouchcp-bluetooth
+- meegotouchcp-cellular
+- meegotouchcp-connman
+- meegotouchcp-datetime
+- meegotouchcp-display
+- meegotouchcp-gprs
+- meegotouchcp-language
+- meegotouchcp-language-l10n-engineering-english
+- meegotouchcp-offline
+- meegotouchcp-profiles
+- meegotouchcp-regionformat
+- meegotouchcp-reset
+- meegotouchcp-theme
+- meegotouchcp-usb
+- meegotouchcp-wallpaper
+- meegotouchcp-warranty
+- profiled
+Summary: MTF Handset UX
