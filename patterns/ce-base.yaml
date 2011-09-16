@@ -6,12 +6,14 @@ Packages:
 - meegotouch-theme-n900de
 # Add splash screen images
 - ce-backgrounds
+# Configurations for CE
+- ce-mtf-configs
 # Splash screen are shown with this
 - plymouth-lite
 # Adding widgetsgallery
 - meegotouch-demos
 # Install mce to enable screen blanking
-#- mce
+- mce
 # Install mad-developer for SDK usage
 - mad-developer
 # Qt Webkit is missing from the images
@@ -19,6 +21,8 @@ Packages:
 - libqtwebkit-qmlwebkitplugin
 # Add resource policy client for debugging resource rules
 - libresource-client
+# Adding VKB
+- maliit-plugins
 # Python qt-mobility, includes also pyside and shiboken.
 #- python-qtmobility
 ### Community apps ###
@@ -51,8 +55,8 @@ Packages:
 - qt-components-base-icons
 #- meego-handset-dialer
 - meego-handset-sms
+- meego-handset-camera
+- meego-pinquery
 # Adding screen to devel purposes
 - screen
-# Configurations for CE
-- ce-mtf-configs
 Summary: Community Edition Base
