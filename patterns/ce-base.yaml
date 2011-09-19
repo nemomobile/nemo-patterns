@@ -59,4 +59,9 @@ Packages:
 - meego-pinquery
 # Adding screen to devel purposes
 - screen
+# These should be replaced with QML apps from community
+# NOTE: Also remove meego-handset-*-branding-*, bognor-regis and meegotouch-theme-meego
+- meego-handset-music
+- meego-handset-video
+- meego-handset-photos
 Summary: Community Edition Base
