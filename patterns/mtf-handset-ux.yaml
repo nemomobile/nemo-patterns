@@ -1,7 +1,6 @@
 Description: MeeGo Touch Framework Handset UX
 Name: mtf-handset-ux
 Packages:
-- meegocontrolpanel-privatemodeapplet
 - meegotouch-compositor
 - meegotouch-controlpanel
 - meegotouch-demos
@@ -21,12 +20,15 @@ Packages:
 - meegotouchcp-language
 - meegotouchcp-language-l10n-engineering-english
 - meegotouchcp-offline
-- meegotouchcp-profiles
+# We don't have proper functionality with these in CE yet.
+#- meegotouchcp-privatemodeapplet
+#- meegotouchcp-profiles
 - meegotouchcp-regionformat
 - meegotouchcp-reset
 - meegotouchcp-theme
 - meegotouchcp-usb
 - meegotouchcp-wallpaper
 - meegotouchcp-warranty
-- profiled
+# Doesn't work properly so not installed by default.
+#- profiled
 Summary: MTF Handset UX
