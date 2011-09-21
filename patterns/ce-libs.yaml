@@ -1,0 +1,23 @@
+Description: Community Edition Libraries
+Name: ce-libs
+Packages:
+# Qt Webkit is missing from the images
+- libqtwebkit4 
+- libqtwebkit-qmlwebkitplugin
+# Qt/QML components and models
+- qt-components
+- qt-components-base-icons
+# Install the Qt Mobility libs
+- libdeclarative-connectivity
+- libdeclarative-contacts
+- libdeclarative-feedback
+- libdeclarative-gallery
+- libdeclarative-location
+- libdeclarative-messaging
+- libdeclarative-multimedia
+- libdeclarative-organizer
+- libdeclarative-publishsubscribe 
+- libdeclarative-sensors
+- libdeclarative-serviceframework
+- libdeclarative-systeminfo
+Summary: Community Edition Libraries

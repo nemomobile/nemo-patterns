@@ -16,9 +16,6 @@ Packages:
 - mce
 # Install mad-developer for SDK usage
 - mad-developer
-# Qt Webkit is missing from the images
-- libqtwebkit4 
-- libqtwebkit-qmlwebkitplugin
 # Add resource policy client for debugging resource rules
 - libresource-client
 # Adding VKB
@@ -50,9 +47,6 @@ Packages:
 - f-irc
 # Qt based game
 - qtflyingbus
-# Qt/QML components and models
-- qt-components
-- qt-components-base-icons
 #- meego-handset-dialer
 - meego-handset-sms
 - meego-handset-people
