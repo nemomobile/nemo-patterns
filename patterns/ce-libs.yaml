@@ -20,4 +20,6 @@ Packages:
 - libdeclarative-sensors
 - libdeclarative-serviceframework
 - libdeclarative-systeminfo
+# Enable direct plugin for tracker.
+- libqtsparl-tracker-direct
 Summary: Community Edition Libraries

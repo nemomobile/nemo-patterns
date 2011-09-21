@@ -31,6 +31,8 @@ Packages:
 - info.vivainio.qmlreddit
 # Facebook client
 - com.substanceofcode.kasvopus
+- com.substanceofcode.twimgo
+- org.pycage.musicshelf
 # Helium Mobile Browser
 - mobilebrowser
 # QML Based package manager
