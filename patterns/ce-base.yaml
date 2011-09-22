@@ -35,6 +35,7 @@ Packages:
 - org.pycage.musicshelf
 # Helium Mobile Browser
 - mobilebrowser
+- fennec-qt
 # QML Based package manager
 - mg-package-manager
 # Include new terminal
