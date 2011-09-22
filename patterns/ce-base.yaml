@@ -49,7 +49,7 @@ Packages:
 - f-irc
 # Qt based game
 - qtflyingbus
-#- meego-handset-dialer
+- meego-handset-dialer
 - meego-handset-sms
 - meego-handset-people
 - meego-handset-camera
@@ -59,7 +59,6 @@ Packages:
 - screen
 # These should be replaced with QML apps from community
 # NOTE: Also remove meego-handset-*-branding-*, bognor-regis and meegotouch-theme-meego
-- meego-handset-music
 - meego-handset-video
 - meego-handset-photos
 Summary: Community Edition Base
