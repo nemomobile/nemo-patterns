@@ -56,7 +56,7 @@ Packages:
 - meego-handset-camera
 - meego-pinquery
 - qmlcalc
-- meego-appsclient-handset
+- appsclient-handset
 # Adding screen to devel purposes
 - screen
 # These should be replaced with QML apps from community
