@@ -32,6 +32,7 @@ Packages:
 # Facebook client
 - com.substanceofcode.kasvopus
 - com.substanceofcode.twimgo
+- com.substanceofcode.newsflow
 - org.pycage.musicshelf
 # Helium Mobile Browser
 - mobilebrowser
