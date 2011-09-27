@@ -6,7 +6,9 @@ Packages:
 - libqtwebkit-qmlwebkitplugin
 # Qt/QML components and models
 - qt-components
-- qt-components-base-icons
+# This conflicts very badly with the MTF themes.
+# See: https://bugs.meego.com/show_bug.cgi?id=23435
+#- qt-components-base-icons
 # Install the Qt Mobility libs
 - libdeclarative-connectivity
 - libdeclarative-contacts
