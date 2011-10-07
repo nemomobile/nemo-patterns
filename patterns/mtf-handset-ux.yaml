@@ -19,7 +19,6 @@ Packages:
 - meegotouchcp-display
 - meegotouchcp-gprs
 - meegotouchcp-language
-- meegotouchcp-language-l10n-engineering-english
 - meegotouchcp-offline
 # We don't have proper functionality with these in CE yet.
 #- meegotouchcp-privatemodeapplet
