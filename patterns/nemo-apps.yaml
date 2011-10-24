@@ -1,5 +1,11 @@
 Description: Nemo Apps
 Name: nemo-apps
 Packages:
+- com.substanceofcode.kasvopus
+- f-irc
+- info.vivainio.qatbowling
+- info.vivainio.qmlreddit
+- meego-handset-camera
+- meego-pinquery
 - qmlcalc
 Summary: Nemo Apps
