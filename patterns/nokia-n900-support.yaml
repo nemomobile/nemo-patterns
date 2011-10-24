@@ -1,0 +1,19 @@
+Arch: arm
+Description: Opensource support packages for Nokia N900
+Name: nokia-n900-support
+Packages:
+- contextkit-meego-battery-upower
+- n900-camera-firmware
+- nokia-n900-configs
+- nokia-usb-networking
+- policy-settings-basic-n900
+- pulseaudio-modules-n900-cmtspeech
+- pulseaudio-modules-n900-mainvolume
+- pulseaudio-modules-n900-music
+- pulseaudio-modules-n900-record
+- pulseaudio-modules-n900-voice
+- pulseaudio-settings-n900
+- systemd-console-ttyO2
+- udev-rules-nokia-n900
+- xorg-x11-utils-xev
+Summary: Nokia N900 Support
