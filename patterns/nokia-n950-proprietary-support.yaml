@@ -1,0 +1,18 @@
+Summary: Nokia N950 Proprietary Support
+Arch: arm
+Description: Proprietary support packages for Nokia N950
+Name: nokia-n950-prorietary-support
+Packages:
+- bme-rm-680-bin
+- n950-camera-fw
+- ti-omap3-sgx-libEGL
+- ti-omap3-sgx-libGLESv1
+- ti-omap3-sgx-libGLESv2
+- ti-wl1271-firmware
+- ti-wl1273-bt-firmware
+- ti-wl1273-fm-radio-firmware
+- pulseaudio-modules-nokia-algorithms-bin
+- pulseaudio-modules-nokia-audiots-bin
+- pulseaudio-modules-nokia-parameters-bin
+- wl1271-cal-bin
+- xorg-x11-drv-fbdev-sgx
