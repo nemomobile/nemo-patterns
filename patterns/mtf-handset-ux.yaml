@@ -7,7 +7,7 @@ Packages:
 - meegotouch-controlpanel
 - meegotouch-demos
 - meegotouch-home
-- meegotouch-inputmethodbridges
+#- meegotouch-inputmethodbridges
 - meegotouch-systemui
 - meegotouch-systemui-screenlock-padlock
 - meegotouch-systemui-volume-fullscreen
@@ -21,11 +21,12 @@ Packages:
 - meegotouchcp-gprs
 - meegotouchcp-language
 - meegotouchcp-offline
+- meegotouchcp-privatemodeapplet
 # We don't have proper functionality with these in CE yet.
-#- meegotouchcp-privatemodeapplet
 #- meegotouchcp-profiles
 - meegotouchcp-regionformat
 - meegotouchcp-reset
+- meegotouchcp-sound
 - meegotouchcp-theme
 - meegotouchcp-usb
 - meegotouchcp-wallpaper
