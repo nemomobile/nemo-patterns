@@ -4,6 +4,7 @@ NAME=package-groups
 TAGVER = $(shell cat VERSION | sed -e "s/\([0-9\.]*\).*/\1/")
 DESTDIR=
 ARCH=i586
+OUTPUTDIR=.
 
 ifeq ($(VERSION), $(TAGVER))
         TAG = $(TAGVER)
@@ -13,7 +14,7 @@ endif
 
 all: 
 	#python scripts/merge-patterns.py -a ${ARCH}
-	python scripts/create-xml-patterns.py -a ${ARCH}
+	python scripts/create-xml-patterns.py -a ${ARCH} -o ${OUTPUTDIR}
 	#xsltproc xsl/comps.xsl patterns.xml > group.xml
 
 install:

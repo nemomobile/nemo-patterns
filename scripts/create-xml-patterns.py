@@ -9,7 +9,7 @@ rpm_ns="http://linux.duke.edu/metadata/rpm"
 pattern_ns="http://novell.com/package/metadata/suse/pattern"
 NSMAP = {None : pattern_ns, "rpm": rpm_ns}
 
-def create_patterns(arch='i586', patterns_dir='patterns'):
+def create_patterns(arch='i586', outputdir='', patterns_dir='patterns'):
 
     for f in os.listdir(patterns_dir):
         if not f.endswith('.yaml'):
@@ -51,9 +51,12 @@ def create_patterns(arch='i586', patterns_dir='patterns'):
             else:
                 entry = etree.SubElement(req, "{%s}entry" %rpm_ns)
                 entry.set("name", p)
+                
+        if outputdir and not os.path.exists(outputdir):
+            os.makedirs(outputdir)
 
         tree = etree.ElementTree(proot)
-        tree.write("%s.xml" % (os.path.basename(f).split('.')[0]))
+        tree.write("%s/%s.xml" % (outputdir,os.path.basename(f).split('.')[0]))
 
 
 if __name__ == '__main__':
@@ -61,9 +64,11 @@ if __name__ == '__main__':
 
     parser.add_option("-a", "--arch", type="string", dest="arch",
                     help="architecture")
+    parser.add_option("-o", "--outputdir", type="string", dest="outputdir",
+                    help="Output directory.")
         
     (options, args) = parser.parse_args()
 
     if options.arch and options.arch in ['i586', 'arm']:
-        create_patterns(options.arch)
+        create_patterns(options.arch,options.outputdir)
 
