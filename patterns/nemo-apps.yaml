@@ -1,5 +1,5 @@
 Description: Nemo Apps
 Name: nemo-apps
 Packages:
-
+- qmlcalc
 Summary: Nemo Apps
