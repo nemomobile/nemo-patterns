@@ -20,6 +20,9 @@ ${OSC_CMD} meta pattern CE:Adaptation:x86-generic intel-x86-generic-support -F $
 
 ${OSC_CMD} meta pattern CE:UX:MTF mtf-handset-ux -F ${PATTERN_XML_DIR}/mtf-handset-ux.xml
 
+${OSC_CMD} meta pattern CE:Utils nemo-utils -F ${PATTERN_XML_DIR}/nemo-utils.xml
+
+${OSC_CMD} meta pattern CE:Apps nemo-apps -F ${PATTERN_XML_DIR}/nemo-apps.xml
 
 
 

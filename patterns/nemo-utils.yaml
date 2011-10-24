@@ -1,0 +1,8 @@
+Description: Nemo Utils
+Name: nemo-utils
+Packages:
+- iotop
+- lynx
+- screen
+- wget
+Summary: Nemo Utils
