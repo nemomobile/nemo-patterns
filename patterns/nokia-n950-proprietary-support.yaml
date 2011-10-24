@@ -1,4 +1,3 @@
-Summary: Nokia N950 Proprietary Support
 Arch: arm
 Description: Proprietary support packages for Nokia N950
 Name: nokia-n950-prorietary-support
@@ -16,3 +15,4 @@ Packages:
 - pulseaudio-modules-nokia-parameters-bin
 - wl1271-cal-bin
 - xorg-x11-drv-fbdev-sgx
+Summary: Nokia N950 Proprietary Support
