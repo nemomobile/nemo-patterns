@@ -1,4 +1,4 @@
-Arch: arm
+Arch: i586
 Description: Support for generic Intel x86 architecture.
 Name: intel-x86-generic-support
 Packages:
