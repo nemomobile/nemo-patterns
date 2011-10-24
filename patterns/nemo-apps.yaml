@@ -8,4 +8,6 @@ Packages:
 - meego-handset-camera
 - meego-pinquery
 - qmlcalc
+- mg-package-manager
+- qtflyingbus
 Summary: Nemo Apps
