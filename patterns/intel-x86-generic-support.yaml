@@ -1,0 +1,15 @@
+Arch: arm
+Description: Support for generic Intel x86 architecture.
+Name: intel-x86-generic-support
+Packages:
+- acpid
+- linux-firmware
+- installer-shell
+- xorg-x11-drv-mtev
+- xorg-x11-drv-synaptics
+- xorg-x11-drv-intel
+- mesa-dri-i915-driver
+- mesa-dri-i965-driver
+- mesa-libGLESv2
+- contextkit-meego-battery-upower
+Summary: Intel x86 Generic Support
