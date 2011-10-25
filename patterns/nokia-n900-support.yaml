@@ -6,7 +6,8 @@ Packages:
 - n900-camera-firmware
 - nokia-n900-configs
 - nokia-usb-networking
-- policy-settings-basic-n900
+# Not there yet.
+#- policy-settings-basic-n900
 - pulseaudio-modules-n900-cmtspeech
 - pulseaudio-modules-n900-mainvolume
 - pulseaudio-modules-n900-music
@@ -14,6 +15,7 @@ Packages:
 - pulseaudio-modules-n900-voice
 - pulseaudio-settings-n900
 - systemd-console-ttyO2
+# Need to cleanup this package.
 - udev-rules-nokia-n900
-- xorg-x11-utils-xev
+#- xorg-x11-utils-xev
 Summary: Nokia N900 Support
