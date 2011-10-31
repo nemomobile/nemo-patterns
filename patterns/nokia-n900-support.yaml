@@ -7,7 +7,6 @@ Packages:
 - gst-omapfb
 - n900-camera-firmware
 - nokia-n900-configs
-- nokia-usb-networking
 # Not there yet.
 #- policy-settings-basic-n900
 - pulseaudio-modules-n900-cmtspeech

@@ -7,7 +7,6 @@ Packages:
 - contextkit-meego-battery-upower
 - gst-dsp
 - kernel-adaptation-n950
-- nokia-usb-networking
 - omap-update-display
 #- policy-settings-basic-n950
 - pulseaudio-modules-n900-cmtspeech
