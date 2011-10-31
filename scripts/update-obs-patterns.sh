@@ -24,6 +24,7 @@ ${OSC_CMD} meta pattern CE:Utils nemo-utils -F ${PATTERN_XML_DIR}/nemo-utils.xml
 
 ${OSC_CMD} meta pattern CE:Apps nemo-apps -F ${PATTERN_XML_DIR}/nemo-apps.xml
 
+${OSC_CMD} meta pattern CE:MW:Shared nemo-middleware-shared -F ${PATTERN_XML_DIR}/nemo-middleware-shared.xml
 
 
 

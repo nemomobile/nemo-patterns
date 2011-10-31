@@ -1,0 +1,7 @@
+Description: Nemo Middleware Shared
+Name: nemo-middleware-shared
+Packages:
+- maliit-framework
+- maliit-plugins
+- ohm
+Summary: Nemo Middleware Shared
