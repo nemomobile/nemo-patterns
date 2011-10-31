@@ -3,11 +3,10 @@ Description: Opensource support packages for Nokia N900
 Name: nokia-n900-support
 Packages:
 - dsme
-- contextkit-meego-battery-upower
+- contextkit-maemo-battery-rx51-bin
 - gst-omapfb
 - n900-camera-firmware
 - nokia-n900-configs
-# Not there yet.
 #- policy-settings-basic-n900
 - pulseaudio-modules-n900-cmtspeech
 - pulseaudio-modules-n900-mainvolume
