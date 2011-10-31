@@ -2,7 +2,9 @@ Arch: arm
 Description: Opensource support packages for Nokia N900
 Name: nokia-n900-support
 Packages:
+- dsme
 - contextkit-meego-battery-upower
+- gst-omapfb
 - n900-camera-firmware
 - nokia-n900-configs
 - nokia-usb-networking
@@ -17,5 +19,4 @@ Packages:
 - systemd-console-ttyO2
 # Need to cleanup this package.
 - udev-rules-nokia-n900
-#- xorg-x11-utils-xev
 Summary: Nokia N900 Support

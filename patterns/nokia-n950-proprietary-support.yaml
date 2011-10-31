@@ -3,6 +3,7 @@ Description: Proprietary support packages for Nokia N950
 Name: nokia-n950-prorietary-support
 Packages:
 - bme-rm-680-bin
+- gst-nokia-camera
 - n950-camera-fw
 - ti-omap3-sgx-libEGL
 - ti-omap3-sgx-libGLESv1

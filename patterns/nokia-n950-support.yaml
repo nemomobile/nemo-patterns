@@ -2,14 +2,14 @@ Arch: arm
 Description: Opensource support packages for Nokia N950
 Name: nokia-n950-support
 Packages:
-#- contextkit-maemo-battery-bme
 - nokia-n950-configs
 - dsme
 - contextkit-meego-battery-upower
 - gst-dsp
 - kernel-adaptation-n950
 - nokia-usb-networking
-- policy-settings-basic-n950
+- omap-update-display
+#- policy-settings-basic-n950
 - pulseaudio-modules-n900-cmtspeech
 - pulseaudio-modules-n900-voice
 - pulseaudio-modules-n900-mainvolume

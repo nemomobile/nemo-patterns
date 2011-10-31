@@ -4,6 +4,7 @@ Name: nokia-n900-proprietary-support
 Packages:
 - bcm-bt-firmware
 - bme-rx-51-bin
+- gst-nokia-camera
 - pulseaudio-modules-nokia-algorithms-bin
 - pulseaudio-modules-nokia-audiots-bin
 - pulseaudio-modules-nokia-parameters-bin
