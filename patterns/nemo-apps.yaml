@@ -8,6 +8,7 @@ Packages:
 # Needs gst plugin that we don't have yet
 #- meego-handset-camera
 - meego-pinquery
+- mobilebrowser
 - qmlcalc
 - mg-package-manager
 - qtflyingbus
