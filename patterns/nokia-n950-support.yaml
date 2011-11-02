@@ -4,7 +4,7 @@ Name: nokia-n950-support
 Packages:
 - dsme
 - contextkit-meego-battery-upower
-- gst-dsp
+#- gst-dsp
 - gst-omapfb
 - nokia-n950-configs
 - omap-update-display
