@@ -9,7 +9,8 @@ Packages:
 #- meego-handset-camera
 - meego-pinquery
 - mobilebrowser
-- qmlcalc
 - mg-package-manager
+- org.pycage.musicshelf
+- qmlcalc
 - qtflyingbus
 Summary: Nemo Apps
