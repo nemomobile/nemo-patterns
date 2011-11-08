@@ -12,6 +12,8 @@ Packages:
 - meegotouch-systemui
 - meegotouch-systemui-screenlock-padlock
 - meegotouch-systemui-volume-fullscreen
+- meegotouch-theme-ce
+- meegotouch-theme-darko
 - meegotouchcp-about
 - meegotouchcp-battery
 - meegotouchcp-bluetooth
