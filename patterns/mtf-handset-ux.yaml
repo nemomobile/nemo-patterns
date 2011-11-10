@@ -5,6 +5,7 @@ Packages:
 - meegotouch-applauncherd
 - meegotouch-community-l10n
 - meegotouch-compositor
+- meegotouch-compositor-gestures
 - meegotouch-controlpanel
 - meegotouch-demos
 - meegotouch-home
