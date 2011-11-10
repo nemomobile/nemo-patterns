@@ -36,5 +36,4 @@ Packages:
 - meegotouchcp-warranty
 # Doesn't work properly so not installed by default.
 #- profiled
-- meego-terminal
 Summary: MTF Handset UX
