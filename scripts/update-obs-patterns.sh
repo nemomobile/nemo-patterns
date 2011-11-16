@@ -27,11 +27,14 @@ update_pattern CE:Adaptation:x86-generic intel-x86-generic-support
 update_pattern CE:UX:MTF mtf-handset-ux
 update_pattern CE:UX:MTF nemo-apps-mtf
 
+update_pattern Project:MTF:Tracker mtf-tracker-related-apps
+
 update_pattern CE:Utils nemo-utils
 
 update_pattern CE:Apps nemo-apps
 
 update_pattern CE:MW:Shared nemo-middleware-shared
+
 
 
 
