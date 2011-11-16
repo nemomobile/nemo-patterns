@@ -23,6 +23,8 @@ def create_patterns(arch='i586', outputdir='', patterns_dir='patterns'):
         
         proot = etree.Element("pattern",  nsmap=NSMAP)
         etree.SubElement(proot, "name").text = y['Name']
+        if y.has_key('Version'):
+            etree.SubElement(proot, "version").attrib['ver'] = "%s" % y['Version']
         etree.SubElement(proot, "summary").text = y['Summary']
         etree.SubElement(proot, "description").text = y['Description']
         etree.SubElement(proot, "uservisible")
