@@ -3,6 +3,7 @@ Name: nemo-utils
 Packages:
 - iotop
 - lynx
+- mad-developer
 - screen
 - wget
 Summary: Nemo Utils
