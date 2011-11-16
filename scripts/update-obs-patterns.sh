@@ -4,28 +4,34 @@ OSC_CMD="osc -A https://api.pub.meego.com/"
 PATTERN_XML_DIR="patterns-xml"
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 
+function update_pattern {
+  echo "Updating pattern ${2} to project ${1}."
+  ${OSC_CMD} meta pattern ${1} ${2} -F ${PATTERN_XML_DIR}/${2}.xml    
+}
+
+
 rm -rf ${PATTERN_XML_DIR}
 python ${DIR}/create-xml-patterns.py -a arm -o ${PATTERN_XML_DIR}
 
-${OSC_CMD} meta pattern CE:Adaptation:N900 nokia-n900-proprietary-support -F ${PATTERN_XML_DIR}/nokia-n900-proprietary-support.xml
-${OSC_CMD} meta pattern CE:Adaptation:N900 nokia-n900-support -F ${PATTERN_XML_DIR}/nokia-n900-support.xml
+update_pattern CE:Adaptation:N900 nokia-n900-proprietary-support
+update_pattern CE:Adaptation:N900 nokia-n900-support
 
-${OSC_CMD} meta pattern CE:Adaptation:N950-N9 nokia-n950-proprietary-support -F ${PATTERN_XML_DIR}/nokia-n950-proprietary-support.xml
-${OSC_CMD} meta pattern CE:Adaptation:N950-N9 nokia-n950-support -F ${PATTERN_XML_DIR}/nokia-n950-support.xml
+update_pattern CE:Adaptation:N950-N9 nokia-n950-proprietary-support
+update_pattern CE:Adaptation:N950-N9 nokia-n950-support
 
 rm -rf ${PATTERN_XML_DIR}
 python ${DIR}/create-xml-patterns.py -a i586 -o ${PATTERN_XML_DIR}
 
-${OSC_CMD} meta pattern CE:Adaptation:x86-generic intel-x86-generic-support -F ${PATTERN_XML_DIR}/intel-x86-generic-support.xml
+update_pattern CE:Adaptation:x86-generic intel-x86-generic-support
 
-${OSC_CMD} meta pattern CE:UX:MTF mtf-handset-ux -F ${PATTERN_XML_DIR}/mtf-handset-ux.xml
-${OSC_CMD} meta pattern CE:UX:MTF nemo-apps-mtf -F ${PATTERN_XML_DIR}/nemo-apps-mtf.xml
+update_pattern CE:UX:MTF mtf-handset-ux
+update_pattern CE:UX:MTF nemo-apps-mtf
 
-${OSC_CMD} meta pattern CE:Utils nemo-utils -F ${PATTERN_XML_DIR}/nemo-utils.xml
+update_pattern CE:Utils nemo-utils
 
-${OSC_CMD} meta pattern CE:Apps nemo-apps -F ${PATTERN_XML_DIR}/nemo-apps.xml
+update_pattern CE:Apps nemo-apps
 
-${OSC_CMD} meta pattern CE:MW:Shared nemo-middleware-shared -F ${PATTERN_XML_DIR}/nemo-middleware-shared.xml
+update_pattern CE:MW:Shared nemo-middleware-shared
 
 
 
