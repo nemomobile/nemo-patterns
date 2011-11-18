@@ -16,6 +16,7 @@ Packages:
 - pulseaudio-modules-n900-voice
 - pulseaudio-module-x11
 - pulseaudio-settings-n950
+- systemd-console-ttyO2
 - udev-rules-n950
 - xorg-x11-drv-mtev
 Summary: Nokia N950 Support
