@@ -2,6 +2,7 @@ Description: Nemo Apps MTF
 Name: nemo-apps-mtf
 Packages:
 - flickr-qml
+- irc-chatter
 - meego-handset-maps
 - meego-terminal
 Summary: Nemo Apps MTF
