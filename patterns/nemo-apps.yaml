@@ -2,7 +2,6 @@ Description: Nemo Apps
 Name: nemo-apps
 Packages:
 - com.substanceofcode.kasvopus
-- f-irc
 - info.vivainio.qatbowling
 - info.vivainio.qmlreddit
 # Needs gst plugin that we don't have yet
