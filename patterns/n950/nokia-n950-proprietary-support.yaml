@@ -1,6 +1,7 @@
-Arch: arm
 Description: Proprietary support packages for Nokia N950
 Name: nokia-n950-prorietary-support
+Version: 001
+Arch: arm
 Packages:
 - bme-rm-680-bin
 - gst-nokia-camera

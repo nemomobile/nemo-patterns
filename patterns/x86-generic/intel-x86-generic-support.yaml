@@ -1,6 +1,7 @@
-Arch: i586
 Description: Support for generic Intel x86 architecture.
 Name: intel-x86-generic-support
+Version: 001
+Arch: i586
 Packages:
 - acpid
 - linux-firmware

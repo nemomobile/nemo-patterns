@@ -1,5 +1,6 @@
 Description: MeeGo Touch Framework Tracker Related Apps
 Name: mtf-tracker-related-apps
+Version: 001
 Packages:
 - meego-handset-dialer
 - meego-handset-people

@@ -1,6 +1,7 @@
-Arch: arm
 Description: Opensource support packages for Nokia N950
 Name: nokia-n950-support
+Version: 001
+Arch: arm
 Packages:
 - dsme
 - contextkit-meego-battery-upower

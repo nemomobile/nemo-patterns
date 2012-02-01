@@ -1,6 +1,7 @@
-Arch: arm
 Description: Nokia N900 Proprietary Support Packages
 Name: nokia-n900-proprietary-support
+Version: 001
+Arch: arm
 Packages:
 - bcm-bt-firmware
 - bme-rx-51-bin

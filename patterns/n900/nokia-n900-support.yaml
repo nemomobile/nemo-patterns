@@ -1,6 +1,7 @@
-Arch: arm
 Description: Opensource support packages for Nokia N900
 Name: nokia-n900-support
+Version: 001
+Arch: arm
 Packages:
 - dsme
 - contextkit-maemo-battery-rx51-bin

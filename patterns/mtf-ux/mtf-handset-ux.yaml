@@ -1,5 +1,6 @@
 Description: MeeGo Touch Framework Handset UX
 Name: mtf-handset-ux
+Version: 001
 Packages:
 - ce-mtf-configs
 - meegotouch-applauncherd
