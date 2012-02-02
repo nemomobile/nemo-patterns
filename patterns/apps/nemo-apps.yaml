@@ -1,7 +1,8 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 002
+Version: 003
 Packages:
+- apps-client
 - com.substanceofcode.kasvopus
 - com.substanceofcode.twimgo
 - info.vivainio.qatbowling
