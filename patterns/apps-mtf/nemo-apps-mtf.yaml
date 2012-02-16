@@ -1,10 +1,11 @@
 Description: Nemo Apps MTF
 Name: nemo-apps-mtf
-Version: 002
+Version: 003
 Packages:
 - flickr-qml
 - heliumreborn
 - irc-chatter
 - meego-handset-maps
 - meego-terminal
+- qmlgallery
 Summary: Nemo Apps MTF
