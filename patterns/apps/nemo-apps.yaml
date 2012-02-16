@@ -1,6 +1,6 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 003
+Version: 004
 Packages:
 - apps-client
 - com.substanceofcode.kasvopus
@@ -13,5 +13,6 @@ Packages:
 - mg-package-manager
 - org.pycage.musicshelf
 - qmlcalc
+- qmlfilemuncher
 - qtflyingbus
 Summary: Nemo Apps
