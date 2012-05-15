@@ -1,6 +1,6 @@
 Description: Support for generic Intel x86 architecture.
 Name: intel-x86-generic-support
-Version: 001
+Version: 002
 Arch: i586
 Packages:
 - acpid
@@ -9,8 +9,9 @@ Packages:
 - xorg-x11-drv-mtev
 - xorg-x11-drv-synaptics
 - xorg-x11-drv-intel
-- mesa-dri-i915-driver
-- mesa-dri-i965-driver
-- mesa-libGLESv2
+- mesa-x86-generic
+- mesa-x86-generic-dri-i915-driver
+- mesa-x86-generic-dri-i965-driver
+- mesa-x86-generic-libGLESv2
 - contextkit-meego-battery-upower
 Summary: Intel x86 Generic Support
