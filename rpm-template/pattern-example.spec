@@ -7,14 +7,15 @@ Name:       pattern-example
 
 # >> macros
 # << macros
-%define pattern_name example
 
 Summary:    Provides pattern '%{name}'
-Version:    1
+Version:    001
 Release:    1
 Group:      Packaging/Patterns
 License:    GPLv2
-Source0:    pattern-%{pattern_name}-%{version}.tar.xz
+BuildArch:  noarch
+URL:        https://gitorious.org/meego-developer-edition-for-n900/package-groups
+Source0:    %{name}-%{version}.tar.bz2
 Source100:  pattern-example.yaml
 BuildRequires:  repomd-pattern-builder
 Provides:   package-groups

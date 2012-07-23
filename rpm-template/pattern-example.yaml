@@ -1,21 +1,21 @@
 Name: pattern-example
-Macros:
-    - pattern_name;example
 Summary: Provides pattern '%{name}'
 Description: |
   %{summary}.
-Version: 1
+Version: 001
 Release: 1
 Group: Packaging/Patterns
 License: GPLv2
+URL: https://gitorious.org/meego-developer-edition-for-n900/package-groups
 Sources:
-    - pattern-%{pattern_name}-%{version}.tar.xz
+    - "%{name}-%{version}.tar.bz2"
 Provides:
     - package-groups
 PkgBR:
     - repomd-pattern-builder
 Builder: make
 Configure: none
+BuildArch: noarch
 Files:
     - "%{_datadir}/package-groups/*.xml"
 
