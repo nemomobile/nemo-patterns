@@ -1,0 +1,21 @@
+Name: pattern-example
+Macros:
+    - pattern_name;example
+Summary: Provides pattern '%{name}'
+Description: |
+  %{summary}.
+Version: 1
+Release: 1
+Group: Packaging/Patterns
+License: GPLv2
+Sources:
+    - pattern-%{pattern_name}-%{version}.tar.xz
+Provides:
+    - package-groups
+PkgBR:
+    - repomd-pattern-builder
+Builder: make
+Configure: none
+Files:
+    - "%{_datadir}/package-groups/*.xml"
+
