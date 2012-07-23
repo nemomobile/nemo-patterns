@@ -21,7 +21,7 @@ do
     PATTERN_NAME=`echo ${PATTERN_DIR} | sed "s!/!!g"`
     TARBALL=../packages/pattern-${PATTERN_NAME}-${VERSION}.tar
     tar --exclude=*~ -cf ${TARBALL} ${PATTERN_DIR}/
-    xz ${TARBALL}
+    bzip2 ${TARBALL}
     rm ${PATTERN_DIR}/Makefile
 done
 popd &> /dev/null
