@@ -19,7 +19,9 @@ do
     fi
     cp Makefile ${PATTERN_DIR}/
     PATTERN_NAME=`echo ${PATTERN_DIR} | sed "s!/!!g"`
-    tar --exclude=*~ -cJf ../packages/pattern-${PATTERN_NAME}-${VERSION}.tar.xz ${PATTERN_DIR}/
+    TARBALL=../packages/pattern-${PATTERN_NAME}-${VERSION}.tar
+    tar --exclude=*~ -cf ${TARBALL} ${PATTERN_DIR}/
+    xz ${TARBALL}
     rm ${PATTERN_DIR}/Makefile
 done
 popd &> /dev/null
