@@ -1,9 +1,10 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 004
+Version: 005
 Packages:
 - apps-client
 - com.substanceofcode.kasvopus
+- com.substanceofcode.newsflow
 - com.substanceofcode.twimgo
 - info.vivainio.qatbowling
 - info.vivainio.qmlreddit
@@ -11,9 +12,12 @@ Packages:
 #- meego-handset-camera
 - meego-pinquery
 - mg-package-manager
+- myatzy
 - org.pycage.musicshelf
 - peregrine-tablet-common
 - qmlcalc
 - qmlfilemuncher
 - qtflyingbus
+- redak
+- voicecall
 Summary: Nemo Apps
