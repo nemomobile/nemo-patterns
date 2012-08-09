@@ -1,6 +1,6 @@
 Description: Opensource support packages for Nokia N950
 Name: nokia-n950-support
-Version: 001
+Version: 002
 Arch: arm
 Packages:
 - dsme
@@ -17,7 +17,7 @@ Packages:
 - pulseaudio-modules-n900-voice
 - pulseaudio-module-x11
 - pulseaudio-settings-n950
-- systemd-console-ttyO2
+- systemd-console-ttyS0
 - udev-rules-n950
 - xorg-x11-drv-mtev
 Summary: Nokia N950 Support
