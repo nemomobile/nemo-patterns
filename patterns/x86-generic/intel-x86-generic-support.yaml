@@ -1,6 +1,6 @@
 Description: Support for generic Intel x86 architecture.
 Name: intel-x86-generic-support
-Version: 002
+Version: 003
 Arch: i586
 Packages:
 - acpid

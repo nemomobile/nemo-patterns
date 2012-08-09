@@ -1,6 +1,6 @@
 Description: Nemo Apps MTF
 Name: nemo-apps-mtf
-Version: 004
+Version: 005
 Packages:
 - accounts-ui
 - fingerterm

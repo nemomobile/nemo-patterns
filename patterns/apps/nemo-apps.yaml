@@ -1,6 +1,6 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 005
+Version: 006
 Packages:
 - apps-client
 - com.substanceofcode.kasvopus

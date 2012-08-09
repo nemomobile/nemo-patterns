@@ -1,6 +1,6 @@
 Description: Nemo Middleware Shared
 Name: nemo-middleware-shared
-Version: 001
+Version: 002
 Packages:
 - maliit-framework
 - maliit-plugins
