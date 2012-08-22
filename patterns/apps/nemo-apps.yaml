@@ -1,23 +1,38 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 006
+Version: 007
 Packages:
+- accounts-ui
 - apps-client
 - com.substanceofcode.kasvopus
 - com.substanceofcode.newsflow
 - com.substanceofcode.twimgo
+- fingerterm
+- flickr-qml
+- heliumreborn
 - info.vivainio.qatbowling
 - info.vivainio.qmlreddit
+- irc-chatter
 # Needs gst plugin that we don't have yet
 #- meego-handset-camera
+- meego-handset-maps
 - meego-pinquery
+- meego-terminal
+- meepasswords
 - mg-package-manager
 - myatzy
 - org.pycage.musicshelf
 - peregrine-tablet-common
+- puzzle-master
 - qmlcalc
+- qmlcalendar
+- qmlcontacts
 - qmlfilemuncher
+- qmlgallery
+- qmlmessages
+- qmlnotes
 - qtflyingbus
+- qtodo
 - redak
 - voicecall
 Summary: Nemo Apps
