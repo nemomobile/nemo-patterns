@@ -21,6 +21,9 @@ do
     PATTERN_NAME=`echo ${PATTERN_DIR} | sed "s!/!!g"`
     TARBALL=../packages/pattern-${PATTERN_NAME}-${VERSION}.tar
     tar --exclude=*~ -cf ${TARBALL} ${PATTERN_DIR}/
+
+    echo "Creating tarball '${TARBALL}'"
+
     bzip2 ${TARBALL}
     rm ${PATTERN_DIR}/Makefile
 done
