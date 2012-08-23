@@ -1,6 +1,6 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 007
+Version: 008
 Packages:
 - accounts-ui
 - apps-client
@@ -22,7 +22,6 @@ Packages:
 - mg-package-manager
 - myatzy
 - org.pycage.musicshelf
-- peregrine-tablet-common
 - puzzle-master
 - qmlcalc
 - qmlcalendar
