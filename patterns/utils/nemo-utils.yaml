@@ -1,10 +1,9 @@
 Description: Nemo Utils
 Name: nemo-utils
-Version: 003
+Version: 004
 Packages:
 - iotop
 - lynx
-- mad-developer
 - screen
 - wget
 - nano
