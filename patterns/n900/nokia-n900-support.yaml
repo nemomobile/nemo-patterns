@@ -1,21 +1,36 @@
 Description: Opensource support packages for Nokia N900
 Name: nokia-n900-support
-Version: 001
+Version: 003
 Arch: arm
 Packages:
-- dsme
+- bcm-bt-firmware
+- bme-rx-51-bin
 - contextkit-maemo-battery-rx51-bin
+- dsme
+- gst-nokia-camera
 - gst-omapfb
 - n900-camera-firmware
 - nokia-n900-configs
+# This package needs to be merged to adaptation group.
 #- policy-settings-basic-n900
 - pulseaudio-modules-n900-cmtspeech
 - pulseaudio-modules-n900-mainvolume
 - pulseaudio-modules-n900-music
 - pulseaudio-modules-n900-record
 - pulseaudio-modules-n900-voice
+- pulseaudio-modules-nokia-algorithms-bin
+- pulseaudio-modules-nokia-audiots-bin
+- pulseaudio-modules-nokia-parameters-bin
 - pulseaudio-settings-n900
+- sysinfod-rx51-bin
+- sysinfod-rx51-tool-bin
+- sysinfod-rx51-udev-rules
 - systemd-console-ttyO2
-# Need to cleanup this package.
+- ti-omap3-sgx-libEGL
+- ti-omap3-sgx-libGLESv1
+- ti-omap3-sgx-libGLESv2
+- ti-wl1251-firmware
 - udev-rules-nokia-n900
+- wl1251-cal-bin
+- xorg-x11-drv-fbdev-sgx
 Summary: Nokia N900 Support
