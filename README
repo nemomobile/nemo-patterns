@@ -15,23 +15,34 @@ that specific pattern is located.
 
 Example:
 
+# Do the changes you want and remember to increment
+# the version number in .yaml and if present VERSION files
+vim patterns/apps/nemo-apps.yaml
+
+# After changes are done create packages
 ./create-packages.sh
 
+# Then branch from the project we are aiming at.
 osc branch CE:Apps pattern-apps
 osc co home:USER:branches:CE:Apps
 cd home:USER:branches:CE:Apps/pattern-apps
+
+# Copy the new package..
 cp ../../packages/pattern-X-###.tar.bz2 .
 
+# .. and remove the old one
 rm package-X-OLD.tar.bz2
 osc ar
-# Change version
-vim *.yaml 
+
+# Change version to match the new tarball
+vim *.yaml
 specify
+
 # Add changelog entry about the changes made
 vim *.changes 
 
+# Push changes to your own project..
 osc ci -m "Updated patterns."
-
-# Submit changes
+# .. and submit them forward.
 osc sr
 

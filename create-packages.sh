@@ -12,11 +12,15 @@ do
     if [ -f $PATTERN_DIR/VERSION ]
     then
         # VERSION file is present if there is multiple .yaml files in dir.
+        # it is used only for package versions patterns will still have 
+        # their own independent versions
         VERSION=`cat $PATTERN_DIR/VERSION`
     else
         # Check version from .yaml if there is only one .yaml file.
         VERSION=`awk '/Version: (\d)*/{print $2;exit}' ${PATTERN_DIR}/*.yaml`
     fi
+    # We have generic makefile for building the package from tarball
+    # that is temporarily copied to the packaging dir while tarball is created
     cp Makefile ${PATTERN_DIR}/
     PATTERN_NAME=`echo ${PATTERN_DIR} | sed "s!/!!g"`
     TARBALL=../packages/pattern-${PATTERN_NAME}-${VERSION}.tar
@@ -28,3 +32,4 @@ do
     rm ${PATTERN_DIR}/Makefile
 done
 popd &> /dev/null
+
