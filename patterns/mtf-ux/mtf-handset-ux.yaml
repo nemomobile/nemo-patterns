@@ -1,16 +1,15 @@
 Description: MeeGo Touch Framework Handset UX
 Name: mtf-handset-ux
-Version: 002
+Version: 003
 Packages:
 - ce-mtf-configs
+- lipstick-colorful-home
 - meegotouch-applauncherd
 - meegotouch-community-l10n
 - meegotouch-compositor
 - meegotouch-compositor-gestures
 - meegotouch-controlpanel
 - meegotouch-demos
-- meegotouch-home
-#- meegotouch-inputmethodbridges
 - meegotouch-systemui
 - meegotouch-systemui-screenlock-padlock
 - meegotouch-systemui-volume-fullscreen
@@ -27,7 +26,7 @@ Packages:
 - meegotouchcp-language
 - meegotouchcp-offline
 - meegotouchcp-privatemodeapplet
-# We don't have proper functionality with these in CE yet.
+# We don't have proper functionality with these in Nemo atm.
 #- meegotouchcp-profiles
 - meegotouchcp-regionformat
 - meegotouchcp-reset
