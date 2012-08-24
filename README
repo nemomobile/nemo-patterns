@@ -27,11 +27,12 @@ osc branch CE:Apps pattern-apps
 osc co home:USER:branches:CE:Apps
 cd home:USER:branches:CE:Apps/pattern-apps
 
+# Remove old tarball
+rm pattern-*.tar.bz2
+
 # Copy the new package..
 cp ../../packages/pattern-X-###.tar.bz2 .
 
-# .. and remove the old one
-rm package-X-OLD.tar.bz2
 osc ar
 
 # Change version to match the new tarball
