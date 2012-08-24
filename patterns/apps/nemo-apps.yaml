@@ -1,6 +1,6 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 008
+Version: 009
 Packages:
 - accounts-ui
 - apps-client
@@ -12,7 +12,9 @@ Packages:
 - heliumreborn
 - info.vivainio.qatbowling
 - info.vivainio.qmlreddit
+- iotop
 - irc-chatter
+- lynx
 # Needs gst plugin that we don't have yet
 #- meego-handset-camera
 - meego-handset-maps
@@ -21,6 +23,7 @@ Packages:
 - meepasswords
 - mg-package-manager
 - myatzy
+- nano
 - org.pycage.musicshelf
 - puzzle-master
 - qmlcalc
@@ -33,5 +36,7 @@ Packages:
 - qtflyingbus
 - qtodo
 - redak
+- screen
 - voicecall
+- wget
 Summary: Nemo Apps
