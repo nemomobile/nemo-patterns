@@ -1,0 +1,19 @@
+Description: Support for Virtual Machine with Intel x86 architecture.
+Name: intel-x86-vm-support
+Version: 001
+Arch: i586
+Packages:
+- acpid
+- linux-firmware
+- installer-shell
+- xorg-x11-drv-mtev
+- xorg-x11-drv-synaptics
+- xorg-x11-drv-intel
+# swrast package is here because of 
+# https://bugs.nemomobile.org/show_bug.cgi?id=347
+# and similar bugs
+- mesa-llvmpipe-dri-swrast-driver
+- mesa-llvmpipe-libGLESv2
+- contextkit-meego-battery-upower
+- xorg-x11-server-Xorg-setuid
+Summary: Intel x86 VM Support
