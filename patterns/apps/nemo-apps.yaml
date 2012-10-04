@@ -1,6 +1,6 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 009
+Version: 010
 Packages:
 - accounts-ui
 - apps-client
@@ -37,6 +37,9 @@ Packages:
 - qtodo
 - redak
 - screen
+# Adding gabble to get jabber support included as it
+# is optional feature for qmlmessages for example
+- telepathy-gabble
 - voicecall
 - wget
 Summary: Nemo Apps
