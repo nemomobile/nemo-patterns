@@ -1,7 +1,8 @@
 Description: Opensource support packages for Nokia N950
 Name: nokia-n950-support
-Version: 006
-Arch: armv7hl
+Version: 007
+# See https://bugs.merproject.org/show_bug.cgi?id=588
+# Arch: armv7hl
 Packages:
 - bme-rm-680-bin
 - contextkit-plugin-power-bme

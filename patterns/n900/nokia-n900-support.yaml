@@ -1,7 +1,8 @@
 Description: Opensource support packages for Nokia N900
 Name: nokia-n900-support
 Version: 004
-Arch: armv7hl
+# See https://bugs.merproject.org/show_bug.cgi?id=588
+# Arch: armv7hl
 Packages:
 - bcm-bt-firmware
 - bme-rx-51-bin
