@@ -1,10 +1,11 @@
 Description: Opensource support packages for Nokia N950
 Name: nokia-n950-support
-Version: 004
+Version: 005
 Arch: arm
 Packages:
 - bme-rm-680-bin
-- contextkit-meego-battery-upower
+- contextkit-plugin-power-bme
+- contextkit-plugin-kbslider 
 - dsme
 - gst-nokia-camera
 - gst-omapfb
