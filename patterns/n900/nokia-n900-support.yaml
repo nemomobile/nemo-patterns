@@ -1,6 +1,6 @@
 Description: Opensource support packages for Nokia N900
 Name: nokia-n900-support
-Version: 004
+Version: 005
 # See https://bugs.merproject.org/show_bug.cgi?id=588
 # Arch: armv7hl
 Packages:
@@ -19,9 +19,6 @@ Packages:
 - pulseaudio-modules-n900-music
 - pulseaudio-modules-n900-record
 - pulseaudio-modules-n900-voice
-- pulseaudio-modules-nokia-algorithms-bin
-- pulseaudio-modules-nokia-audiots-bin
-- pulseaudio-modules-nokia-parameters-bin
 - pulseaudio-settings-n900
 - sysinfod-rx51-bin
 - sysinfod-rx51-tool-bin

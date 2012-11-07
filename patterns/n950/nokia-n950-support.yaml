@@ -1,6 +1,6 @@
 Description: Opensource support packages for Nokia N950
 Name: nokia-n950-support
-Version: 007
+Version: 008
 # See https://bugs.merproject.org/show_bug.cgi?id=588
 # Arch: armv7hl
 Packages:
@@ -22,9 +22,6 @@ Packages:
 - pulseaudio-modules-n900-music
 - pulseaudio-modules-n900-record
 - pulseaudio-modules-n900-voice
-- pulseaudio-modules-nokia-algorithms-bin
-- pulseaudio-modules-nokia-audiots-bin
-- pulseaudio-modules-nokia-parameters-bin
 - pulseaudio-settings-n950
 - systemd-console-ttyS0
 - ti-omap3-sgx-libEGL
