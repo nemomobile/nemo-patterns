@@ -1,6 +1,6 @@
 Description: MeeGo Touch Framework Handset UX
 Name: mtf-handset-ux
-Version: 003
+Version: 004
 Packages:
 - ce-mtf-configs
 - lipstick-colorful-home
@@ -11,9 +11,7 @@ Packages:
 - meegotouch-controlpanel
 - meegotouch-demos
 - meegotouch-systemui
-- meegotouch-systemui-screenlock-padlock
 - meegotouch-systemui-volume-fullscreen
-- meegotouch-theme-ce
 - meegotouch-theme-darko
 - meegotouchcp-about
 - meegotouchcp-battery
@@ -37,4 +35,5 @@ Packages:
 - meegotouchcp-warranty
 # Doesn't work properly so not installed by default.
 #- profiled
+- nemo-theme-default
 Summary: MTF Handset UX
