@@ -1,7 +1,8 @@
 Description: Support for Virtual Machine with Intel x86 architecture.
 Name: intel-x86-vm-support
-Version: 002
-Arch: i586
+Version: 003
+# See https://bugs.merproject.org/show_bug.cgi?id=588
+# Arch: i586
 Packages:
 - acpid
 - linux-firmware
@@ -14,6 +15,7 @@ Packages:
 # and similar bugs
 - mesa-llvmpipe-dri-swrast-driver
 - mesa-llvmpipe-libGLESv2
-- contextkit-meego-battery-upower
+- nemo-mobile-configs-x86-vm
+- contextkit-plugin-upower
 - xorg-x11-server-Xorg-setuid
 Summary: Intel x86 VM Support

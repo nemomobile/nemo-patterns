@@ -1,7 +1,8 @@
 Description: Support for generic Intel x86 architecture.
 Name: intel-x86-generic-support
-Version: 003
-Arch: i586
+Version: 004
+# See https://bugs.merproject.org/show_bug.cgi?id=588
+# Arch: i586
 Packages:
 - acpid
 - linux-firmware
@@ -13,5 +14,6 @@ Packages:
 - mesa-x86-generic-dri-i915-driver
 - mesa-x86-generic-dri-i965-driver
 - mesa-x86-generic-libGLESv2
-- contextkit-meego-battery-upower
+- nemo-mobile-configs-x86-generic
+- contextkit-plugin-upower
 Summary: Intel x86 Generic Support
