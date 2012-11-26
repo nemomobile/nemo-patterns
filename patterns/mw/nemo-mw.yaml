@@ -1,0 +1,9 @@
+Description: Nemo Middleware
+Name: nemo-mw
+Requires:
+- maliit-framework
+- maliit-plugins
+- ohm
+Provides:
+- Nemo Middleware Shared
+Summary: Nemo MW
