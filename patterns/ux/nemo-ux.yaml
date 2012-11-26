@@ -1,7 +1,5 @@
 Description: Nemo UX
 Name: nemo-ux
-Provides:
-- MTF Handset UX 
 Requires:
 - ce-mtf-configs
 - lipstick-colorful-home
