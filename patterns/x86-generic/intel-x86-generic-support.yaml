@@ -13,7 +13,9 @@ Packages:
 - mesa-x86-generic
 - mesa-x86-generic-dri-i915-driver
 - mesa-x86-generic-dri-i965-driver
+- mesa-x86-generic-libEGL
 - mesa-x86-generic-libGLESv2
+- mesa-x86-generic-libglapi
 - nemo-mobile-configs-x86-generic
 - contextkit-plugin-upower
 Summary: Intel x86 Generic Support
