@@ -1,9 +1,6 @@
 Description: Support for generic Intel x86 architecture.
 Name: intel-x86-generic-support
-Version: 004
-# See https://bugs.merproject.org/show_bug.cgi?id=588
-# Arch: i586
-Packages:
+Requires:
 - acpid
 - linux-firmware
 - installer-shell

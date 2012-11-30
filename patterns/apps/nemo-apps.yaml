@@ -1,7 +1,6 @@
 Description: Nemo Apps
 Name: nemo-apps
-Version: 011
-Packages:
+Requires:
 - accounts-ui
 - apps-client
 - com.substanceofcode.kasvopus
@@ -42,4 +41,6 @@ Packages:
 - telepathy-gabble
 - voicecall-ui-reference
 - wget
+- openssh-clients
+- vim-enhanced
 Summary: Nemo Apps

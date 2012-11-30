@@ -4,6 +4,7 @@ Requires:
 - maliit-framework
 - maliit-plugins
 - ohm
+- mce
 Provides:
 - Nemo Middleware Shared
 Summary: Nemo MW
