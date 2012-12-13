@@ -1,0 +1,7 @@
+Description: Pattern to help development processes
+Name: nemo-rnd
+Requires:
+- openssh-server
+# Needed for X11 forwarding
+- xorg-x11-xauth
+Summary: Nemo RND
