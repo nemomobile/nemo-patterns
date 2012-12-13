@@ -36,7 +36,6 @@ Requires:
 - nemo-theme-default
 # Wifi indicator needs this.
 - contextkit-plugin-mce
-# FIXME: These should be in MW?
 # For splash screen
 - ce-backgrounds
 - plymouth-lite
