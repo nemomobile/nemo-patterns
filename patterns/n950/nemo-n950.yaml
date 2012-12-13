@@ -3,4 +3,5 @@ Name: nemo-n950
 Requires:
 - pattern:nemo-complete
 - pattern:nokia-n950-support
+- meego-handset-camera
 Summary: Nemo N950
