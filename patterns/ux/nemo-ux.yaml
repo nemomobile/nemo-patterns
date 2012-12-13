@@ -32,8 +32,6 @@ Requires:
 - meegotouchcp-usb
 - meegotouchcp-wallpaper
 - meegotouchcp-warranty
-# Doesn't work properly so not installed by default.
-#- profiled
 - nemo-mobile-session
 - nemo-theme-default
 # Wifi indicator needs this.
