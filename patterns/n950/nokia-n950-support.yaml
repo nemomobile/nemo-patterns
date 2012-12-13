@@ -7,6 +7,7 @@ Requires:
 - dsme
 - gst-nokia-camera
 - gst-omapfb
+- kernel-adaptation-n950
 - n950-camera-fw
 - nokia-n950-configs
 - omap-update-display

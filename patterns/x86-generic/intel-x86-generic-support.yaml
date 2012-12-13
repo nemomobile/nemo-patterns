@@ -4,6 +4,7 @@ Requires:
 - acpid
 - linux-firmware
 - installer-shell
+- kernel-adaptation-pc
 - xorg-x11-drv-mtev
 - xorg-x11-drv-synaptics
 - xorg-x11-drv-intel
