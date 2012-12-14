@@ -1,5 +1,5 @@
-Name:       pattern-mtf-ux
-Summary:    Provides pattern '%{name}'
+Name:       patterns-nemo-ux
+Summary:    Provides Nemo UX patterns
 Version:    005
 Release:    1
 Group:      Packaging/Patterns
@@ -14,7 +14,7 @@ Provides:   package-groups
 %{summary}.
 
 %prep
-%setup -q -n mtf-ux
+%setup -q -n %{name}-%{version}
 
 %build
 
