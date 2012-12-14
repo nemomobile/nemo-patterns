@@ -4,4 +4,10 @@ Requires:
 - openssh-server
 # Needed for X11 forwarding
 - xorg-x11-xauth
+- iotop
+- lynx
+- screen
+- wget
+- nano
+- vim-enhanced
 Summary: Nemo RND
