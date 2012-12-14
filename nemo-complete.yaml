@@ -11,4 +11,9 @@ Requires:
 - pattern:nemo-ux
 - pattern:nemo-apps
 - pattern:nemo-rnd
+# pattern:mer-graphics-common requires this and we need to
+# provide it untill it gets removed see:
+# http://review.merproject.org/#change,967
+Provides:
+- uxlaunch
 Summary: Nemo Complete
