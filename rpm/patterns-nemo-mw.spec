@@ -1,5 +1,5 @@
 Name:       patterns-nemo-mw
-Summary:    Provides pattern '%{name}'
+Summary:    Provides patterns for nemo mobile mw repository.
 Version:    002
 Release:    1
 Group:      Packaging/Patterns
@@ -17,7 +17,6 @@ Provides:   package-groups
 %setup -q -n %{name}-%{version}
 
 %build
-make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
