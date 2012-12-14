@@ -1,0 +1,6 @@
+Description: Pattern to include Nemo with generic x86 support
+Name: nemo-x86-generic
+Requires:
+- pattern:nemo-complete
+- pattern:intel-x86-generic-support
+Summary: Nemo x86 Generic

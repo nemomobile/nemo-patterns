@@ -1,0 +1,19 @@
+Description: Support for generic Intel x86 architecture.
+Name: intel-x86-generic-support
+Requires:
+- acpid
+- linux-firmware
+- installer-shell
+- kernel-adaptation-pc
+- xorg-x11-drv-mtev
+- xorg-x11-drv-synaptics
+- xorg-x11-drv-intel
+- mesa-x86-generic
+- mesa-x86-generic-dri-i915-driver
+- mesa-x86-generic-dri-i965-driver
+- mesa-x86-generic-libEGL
+- mesa-x86-generic-libGLESv2
+- mesa-x86-generic-libglapi
+- nemo-mobile-configs-x86-generic
+- contextkit-plugin-upower
+Summary: Intel x86 Generic Support

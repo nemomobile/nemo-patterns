@@ -1,0 +1,19 @@
+Description: Support for Virtual Machine with Intel x86 architecture.
+Name: intel-x86-vm-support
+Packages:
+- acpid
+- linux-firmware
+- installer-shell
+- kernel-adaptation-pc
+- xorg-x11-drv-mtev
+- xorg-x11-drv-synaptics
+- xorg-x11-drv-vesa
+# swrast package is here because of 
+# https://bugs.nemomobile.org/show_bug.cgi?id=347
+# and similar bugs
+- mesa-llvmpipe-dri-swrast-driver
+- mesa-llvmpipe-libGLESv2
+- nemo-mobile-configs-x86-vm
+- contextkit-plugin-upower
+- xorg-x11-server-Xorg-setuid
+Summary: Intel x86 VM Support
