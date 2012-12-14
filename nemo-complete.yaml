@@ -1,0 +1,14 @@
+Description: Complete Nemo Mobile with MW, UX and Apps
+Name: nemo-complete
+Requires:
+# Mer
+- pattern:mer-core
+- pattern:mer-connectivity 
+- pattern:mer-graphics-common
+- pattern:mer-minimal-xorg
+# Nemo
+- pattern:nemo-mw
+- pattern:nemo-ux
+- pattern:nemo-apps
+- pattern:nemo-rnd
+Summary: Nemo Complete
