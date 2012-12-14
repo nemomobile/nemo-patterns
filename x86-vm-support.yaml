@@ -1,5 +1,5 @@
-Description: Support for Virtual Machine with Intel x86 architecture.
-Name: intel-x86-vm-support
+Description: Support for Virtual Machine with x86 architecture.
+Name: x86-vm-support
 Packages:
 - acpid
 - linux-firmware
@@ -16,4 +16,4 @@ Packages:
 - nemo-mobile-configs-x86-vm
 - contextkit-plugin-upower
 - xorg-x11-server-Xorg-setuid
-Summary: Intel x86 VM Support
+Summary: x86 VM Support

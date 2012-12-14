@@ -1,5 +1,5 @@
-Description: Support for generic Intel x86 architecture.
-Name: intel-x86-generic-support
+Description: Support for generic x86 architecture.
+Name: x86-generic-support
 Requires:
 - acpid
 - linux-firmware
@@ -16,4 +16,4 @@ Requires:
 - mesa-x86-generic-libglapi
 - nemo-mobile-configs-x86-generic
 - contextkit-plugin-upower
-Summary: Intel x86 Generic Support
+Summary: x86 Generic Support
