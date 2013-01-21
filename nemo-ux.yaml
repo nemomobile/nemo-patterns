@@ -39,4 +39,9 @@ Requires:
 # For splash screen
 - ce-backgrounds
 - plymouth-lite
+# Because of some pattern dependencies 
+# we need to provide uxlaunch to keep updates
+# working properly.
+Provides:
+- uxlaunch
 Summary: Nemo UX
