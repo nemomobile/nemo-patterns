@@ -1,13 +1,27 @@
 Description: Pattern to help development processes
 Name: nemo-rnd
 Requires:
+- connman-test
+- diffutils
+- gdb
+- iotop
+- libaccounts-glib-tools
+- libcommhistory-tools
+- lipstick-tools
+- lynx
+- mce-tools
+- mer-gfx-tests
+- nano
+- ofono-tests
+- openssh-clients
 - openssh-server
+- qmlcontacts-tools
+- screen
+- tar
+- tracker-utils
+- vim-enhanced
+- vim-minimal
+- wget
 # Needed for X11 forwarding
 - xorg-x11-xauth
-- iotop
-- lynx
-- screen
-- wget
-- nano
-- vim-enhanced
 Summary: Nemo RND
