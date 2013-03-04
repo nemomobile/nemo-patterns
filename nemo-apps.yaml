@@ -20,13 +20,14 @@ Requires:
 - meepasswords
 - mg-package-manager
 - myatzy
-- org.pycage.musicshelf
+- qmlmusicplayer
 - puzzle-master
 - qmlcalc
 - qmlcalendar
 - qmlcontacts
 - qmlfilemuncher
 - qmlgallery
+- qmlmail
 - qmlmessages
 - qmlnotes
 - qtflyingbus
