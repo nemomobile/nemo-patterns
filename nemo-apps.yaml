@@ -16,7 +16,6 @@ Requires:
 #- meego-handset-camera
 - meego-handset-maps
 - qmlpinquery
-- meego-terminal
 - meepasswords
 - mg-package-manager
 - myatzy
