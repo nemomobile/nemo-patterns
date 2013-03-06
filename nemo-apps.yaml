@@ -15,7 +15,7 @@ Requires:
 # Needs gst plugin that we don't have yet
 #- meego-handset-camera
 - meego-handset-maps
-- meego-pinquery
+- qmlpinquery
 - meego-terminal
 - meepasswords
 - mg-package-manager
