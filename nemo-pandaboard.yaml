@@ -1,0 +1,6 @@
+Description: Pattern to include Nemo with PandaBoard support
+Name: nemo-pandaboard
+Requires:
+- pattern:nemo-complete
+- pattern:pandaboard-support
+Summary: Nemo PandaBoard

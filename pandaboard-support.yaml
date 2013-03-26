@@ -1,0 +1,16 @@
+Description: Opensource support packages for PandaBoard
+Name: pandaboard-support
+Requires:
+- kernel-adaptation-pandaboard
+- linux-firmware-ti-connectivity
+- nemo-configs-pandaboard
+- pulseaudio-module-x11
+- pvr-omap4
+- pvr-omap4-kernel
+- pvr-omap4-libEGL
+- pvr-omap4-libGLESv1
+- pvr-omap4-libGLESv2
+- u-boot-omap4panda
+- xorg-x11-drv-omap
+- xorg-x11-server-Xorg-setuid
+Summary: PandaBoard Support
