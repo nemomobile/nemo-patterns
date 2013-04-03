@@ -1,7 +1,11 @@
 Description: Nemo Middleware
 Name: nemo-mw
 Requires:
+# Nothing requires on maliit, maybe it should be in the UX pattern
+# instead?
 - maliit-framework
 - maliit-plugins
+# If adaptation doesn't have any policy-settings-package installed
+# by default then ohm isn't installed at all.
 - ohm
 Summary: Nemo MW
