@@ -1,4 +1,4 @@
-Description: Opensource support packages for PandaBoard
+Description: PandaBoard HW Adaptation Support pattern
 Name: pandaboard-support
 Requires:
 - kernel-adaptation-pandaboard
