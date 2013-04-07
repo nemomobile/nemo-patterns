@@ -8,4 +8,5 @@ Requires:
 # If adaptation doesn't have any policy-settings-package installed
 # by default then ohm isn't installed at all.
 - ohm
+- ssu-vendor-data-nemo
 Summary: Nemo MW
