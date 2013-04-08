@@ -12,6 +12,7 @@ Requires:
 - graphics-adaptation-tegra3-libGLESv2
 - graphics-adaptation-tegra3-libOMX
 - graphics-adaptation-tegra3-xorg
+- kernel-adaptation-google-nexus7 
 - linux-firmware-tegra3
 - moslo-nexus7
 - systemd-console-ttyS0
