@@ -1,0 +1,6 @@
+Description: Pattern to include Nemo with Nexus7 support
+Name: nemo-nexus7
+Requires:
+- pattern:nemo-complete
+- pattern:nexus7-support
+Summary: Nemo Nexus7

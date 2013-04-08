@@ -1,0 +1,20 @@
+Description: Nexus7 HW Adaptation Support pattern
+Name: nexus7-support
+Requires:
+- codecs-tegra3
+- configs-nexus7
+- configs-tegra3
+- contextkit-plugin-mce
+- contextkit-plugin-upower
+- graphics-adaptation-tegra3
+- graphics-adaptation-tegra3-libEGL
+- graphics-adaptation-tegra3-libGLESv1
+- graphics-adaptation-tegra3-libGLESv2
+- graphics-adaptation-tegra3-libOMX
+- graphics-adaptation-tegra3-xorg
+- linux-firmware-tegra3
+- moslo-nexus7
+- systemd-console-ttyS0
+- xorg-x11-drv-mtev
+- xorg-x11-server-Xorg-setuid
+Summary: Nexus7 Support
