@@ -4,16 +4,22 @@ Requires:
 # Mer
 - pattern:mer-core
 - pattern:mer-connectivity 
-- pattern:mer-graphics-common
+# Because mer-graphics-common includes uxlaunch we don't include
+# that but include the packages from it instead.
+# http://review.merproject.org/#change,967
+#- pattern:mer-graphics-common
+- cjkuni-fonts
+- liberation-fonts-common
+- liberation-mono-fonts
+- liberation-sans-fonts
+- liberation-serif-fonts
+- droid-sans-fonts
+- droid-sans-mono-fonts
+- droid-serif-fonts
 - pattern:mer-minimal-xorg
 # Nemo
 - pattern:nemo-mw
 - pattern:nemo-ux
 - pattern:nemo-apps
 - pattern:nemo-rnd
-# pattern:mer-graphics-common requires this and we need to
-# provide it untill it gets removed see:
-# http://review.merproject.org/#change,967
-Provides:
-- uxlaunch
 Summary: Nemo Complete
