@@ -14,7 +14,7 @@ Requires:
 - irc-chatter
 # Needs gst plugin that we don't have yet
 #- meego-handset-camera
-- meego-handset-maps
+- qmlmaps
 - qmlpinquery
 - meepasswords
 - mg-package-manager
