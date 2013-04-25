@@ -20,6 +20,8 @@ Provides:   package-groups
 
 %install
 rm -rf %{buildroot}
+export VERSION=%{version}
+export RELEASE=%{release}
 %make_install
 
 %files
