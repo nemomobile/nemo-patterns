@@ -13,7 +13,7 @@ Packages:
 # and similar bugs
 - mesa-llvmpipe-dri-swrast-driver
 - mesa-llvmpipe-libGLESv2
-- nemo-mobile-configs-x86-vm
+- nemo-configs-x86-vm
 - contextkit-plugin-upower
 - xorg-x11-server-Xorg-setuid
 Summary: x86 VM Support

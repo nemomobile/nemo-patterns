@@ -14,6 +14,6 @@ Requires:
 - mesa-x86-generic-libEGL
 - mesa-x86-generic-libGLESv2
 - mesa-x86-generic-libglapi
-- nemo-mobile-configs-x86-generic
+- nemo-configs-x86-generic
 - contextkit-plugin-upower
 Summary: x86 Generic Support
