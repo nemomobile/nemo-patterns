@@ -13,7 +13,6 @@ Requires:
 - meegotouch-systemui-volume-fullscreen
 - meegotouch-theme-darko
 - meegotouchcp-about
-- meegotouchcp-battery
 - meegotouchcp-bluetooth
 - meegotouchcp-cellular
 - meegotouchcp-connman
@@ -32,6 +31,7 @@ Requires:
 - meegotouchcp-usb
 - meegotouchcp-wallpaper
 - meegotouchcp-warranty
+- nemo-control-panel-applet-power
 - nemo-firstsession
 - nemo-mobile-session
 - nemo-theme-default
