@@ -5,7 +5,7 @@ Requires:
 - contextkit-plugin-power-bme
 - contextkit-plugin-kbslider 
 - dsme
-- gst-nokia-camera
+- gstreamer0.10-nokia-videosrc
 - gst-omapfb
 - kernel-adaptation-n950
 - n950-camera-fw
