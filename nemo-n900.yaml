@@ -3,5 +3,6 @@ Name: nemo-n900
 Requires:
 - pattern:nemo-complete
 - pattern:nokia-n900-support
-- meego-handset-camera
+# See comment in Nokia N900 Support group.
+#- meego-handset-camera
 Summary: Nemo N900

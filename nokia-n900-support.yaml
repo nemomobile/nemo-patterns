@@ -5,7 +5,9 @@ Requires:
 - bme-rx-51-bin
 - contextkit-maemo-battery-rx51-bin
 - dsme
-- gst-nokia-camera
+# Requires older gst-plugins-bad-free. Consider forking this
+# to adaptation repository.
+#- gst-nokia-camera
 - gst-omapfb
 - kernel-adaptation-n900
 - n900-camera-firmware
