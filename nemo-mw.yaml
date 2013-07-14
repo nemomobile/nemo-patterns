@@ -9,4 +9,5 @@ Requires:
 # by default then ohm isn't installed at all.
 - ohm
 - ssu-vendor-data-nemo
+- nemo-configs-connman
 Summary: Nemo MW
