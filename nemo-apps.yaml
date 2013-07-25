@@ -17,7 +17,7 @@ Requires:
 - qmlmaps
 - qmlpinquery
 - meepasswords
-- mg-package-manager
+#- qmlpackagemanager
 - myatzy
 - qmlmusicplayer
 - puzzle-master
