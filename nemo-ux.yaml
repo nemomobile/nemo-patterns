@@ -6,14 +6,10 @@ Requires:
 - meegotouch-community-l10n
 - meegotouch-compositor
 - meegotouch-compositor-gestures
-- meegotouch-controlpanel
-- meegotouch-demos
 - meegotouch-systemui
-- meegotouch-systemui-volume-fullscreen
 - meegotouch-theme-darko
-- nemo-control-panel-applet-power
 - nemo-firstsession
-- nemo-mobile-session
+- nemo-mobile-session-xorg
 - nemo-theme-default
 - qmlsettings
 - qmlsettings-account-plugin-email
