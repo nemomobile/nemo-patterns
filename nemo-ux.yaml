@@ -3,7 +3,6 @@ Name: nemo-ux
 Requires:
 - ce-mtf-configs
 - lipstick-colorful-home
-- meegotouch-applauncherd
 - meegotouch-community-l10n
 - meegotouch-compositor
 - meegotouch-compositor-gestures
