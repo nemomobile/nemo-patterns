@@ -12,29 +12,13 @@ Requires:
 - meegotouch-systemui
 - meegotouch-systemui-volume-fullscreen
 - meegotouch-theme-darko
-- meegotouchcp-about
-- meegotouchcp-bluetooth
-- meegotouchcp-cellular
-- meegotouchcp-connman
-- meegotouchcp-datetime
-- meegotouchcp-display
-- meegotouchcp-gprs
-- meegotouchcp-language
-- meegotouchcp-offline
-- meegotouchcp-privatemodeapplet
-# We don't have proper functionality with these in Nemo atm.
-#- meegotouchcp-profiles
-- meegotouchcp-regionformat
-- meegotouchcp-reset
-- meegotouchcp-sound
-- meegotouchcp-theme
-- meegotouchcp-usb
-- meegotouchcp-wallpaper
-- meegotouchcp-warranty
 - nemo-control-panel-applet-power
 - nemo-firstsession
 - nemo-mobile-session
 - nemo-theme-default
+- qmlsettings
+- qmlsettings-account-plugin-email
+- qmlsettings-account-plugin-jabber
 # Wifi indicator needs this.
 - contextkit-plugin-mce
 # For splash screen
