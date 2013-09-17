@@ -29,6 +29,7 @@ Requires:
 - qmlmail
 - qmlmessages
 - qmlnotes
+- qt-components-qt5-gallery
 - qtflyingbus
 - qtodo
 - redak
