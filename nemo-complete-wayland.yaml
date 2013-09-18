@@ -19,6 +19,6 @@ Requires:
 # Nemo
 - pattern:nemo-mw
 - pattern:nemo-ux-wayland
-- pattern:nemo-apps
+- pattern:nemo-apps-wayland
 - pattern:nemo-rnd-wayland
 Summary: Nemo Complete Wayland
