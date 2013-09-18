@@ -1,0 +1,41 @@
+Description: Nemo Apps Wayland
+Name: nemo-apps-wayland
+Requires:
+#- accounts-ui   # no longer exists in nemo:devel:apps (only in testing)
+- apps-client
+#No Qt5 port# - com.substanceofcode.kasvopus
+#No Qt5 port# - com.substanceofcode.newsflow
+#No Qt5 port# - com.substanceofcode.twimgo
+- fingerterm
+#No Qt5 port# - flickr-qml
+#No Qt5 port# - heliumreborn
+#No Qt5 port# - info.vivainio.qatbowling
+#No Qt5 port# - info.vivainio.qmlreddit
+#No Qt5 port# - irc-chatter
+# Needs gst plugin that we don't have yet
+#- meego-handset-camera
+- qmlmaps
+- qmlpinquery
+#No Qt5 port# - meepasswords
+#No Qt5 port# - qmlpackagemanager
+#No Qt5 port# - myatzy
+- qmlmusicplayer
+#No Qt5 port# - puzzle-master
+- qmlcalc
+- qmlcalendar
+- qmlcontacts
+- qmlfilemuncher
+- qmlgallery
+- qmlmail
+- qmlmessages
+- qmlnotes
+- qt-components-qt5-gallery
+#No Qt5 port# - qtflyingbus
+#No Qt5 port# - qtodo
+#No Qt5 port# - redak
+# Adding gabble to get jabber support included as it
+# is optional feature for qmlmessages for example
+#No Qt5 port# - telepathy-gabble
+- voicecall-ui-reference
+- openssh-clients
+Summary: Nemo Apps
