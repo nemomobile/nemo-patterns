@@ -2,7 +2,7 @@ Description: Nemo Apps Wayland
 Name: nemo-apps-wayland
 Requires:
 #- accounts-ui   # no longer exists in nemo:devel:apps (only in testing)
-- apps-client
+#No Qt5 port# - apps-client
 #No Qt5 port# - com.substanceofcode.kasvopus
 #No Qt5 port# - com.substanceofcode.newsflow
 #No Qt5 port# - com.substanceofcode.twimgo
