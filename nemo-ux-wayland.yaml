@@ -3,8 +3,6 @@ Name: nemo-ux-wayland
 Requires:
 - ce-mtf-configs
 - lipstick-colorful-home-qt5
-- meegotouch-compositor
-- meegotouch-compositor-gestures
 - meegotouch-systemui
 - meegotouch-theme-darko
 - nemo-firstsession
