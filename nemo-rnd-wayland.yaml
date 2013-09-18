@@ -15,7 +15,7 @@ Requires:
 - ofono-tests
 - openssh-clients
 - openssh-server
-- nemo-qml-plugin-contacts-tools
+- nemo-qml-plugin-contacts-qt5-tools
 - screen
 - tar
 - tracker-utils
