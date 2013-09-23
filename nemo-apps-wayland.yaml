@@ -23,6 +23,7 @@ Requires:
 #No Qt5 port# - puzzle-master
 - qmlcalc
 - qmlcalendar
+- qmlclock
 - qmlcontacts
 - qmlfilemuncher
 - qmlgallery
