@@ -16,6 +16,7 @@ Requires:
 - openssh-clients
 - openssh-server
 - nemo-qml-plugin-contacts-qt5-tools
+- qt5-qtsensors-plugin-sensorfw
 - screen
 - tar
 - tracker-utils
