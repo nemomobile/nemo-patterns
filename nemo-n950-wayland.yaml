@@ -1,0 +1,6 @@
+Description: Pattern to include Nemo with N950/N9 Wayland support
+Name: nemo-n950-wayland
+Requires:
+- pattern:nemo-complete-wayland
+- pattern:nokia-n950-support-wayland
+Summary: Nemo N950 Wayland
