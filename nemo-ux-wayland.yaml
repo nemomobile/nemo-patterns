@@ -15,4 +15,5 @@ Requires:
 # For splash screen
 - ce-backgrounds
 - plymouth-lite
+- google-opensans-fonts
 Summary: Nemo UX Wayland

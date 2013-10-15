@@ -8,6 +8,7 @@ Requires:
 # that but include the packages from it instead.
 # http://review.merproject.org/#change,967
 #- pattern:mer-graphics-common
+# Nemo-specific fonts go into nemo:ux. Fonts from mer-core
 - cjkuni-fonts
 - liberation-fonts-common
 - liberation-mono-fonts
