@@ -3,10 +3,9 @@ Name: nemo-ux-wayland
 Requires:
 - ce-mtf-configs
 - lipstick-colorful-home-qt5
-- meegotouch-theme-darko
+- nemo-theme-glacier
 - nemo-firstsession
 - nemo-mobile-session-wayland
-- nemo-theme-default
 - qmlsettings
 - qmlsettings-account-plugin-email
 - qmlsettings-account-plugin-jabber
