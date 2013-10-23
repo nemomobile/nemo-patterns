@@ -1,7 +1,6 @@
 Description: Nemo UX Wayland
 Name: nemo-ux-wayland
 Requires:
-- ce-mtf-configs
 - lipstick-colorful-home-qt5
 - nemo-theme-glacier
 - nemo-firstsession
