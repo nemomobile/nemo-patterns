@@ -17,7 +17,7 @@ Requires:
 - qmlmaps
 - qmlpinquery
 #No Qt5 port# - meepasswords
-#No Qt5 port# - qmlpackagemanager
+- qmlpackagemanager
 #No Qt5 port# - myatzy
 - qmlmusicplayer
 #No Qt5 port# - puzzle-master
