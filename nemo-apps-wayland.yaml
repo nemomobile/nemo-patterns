@@ -31,6 +31,7 @@ Requires:
 - qmlmessages
 - qmlnotes
 - qt-components-qt5-gallery
+- qt5-qtquickcontrols-nemo-examples
 #No Qt5 port# - qtflyingbus
 #No Qt5 port# - qtodo
 #No Qt5 port# - redak
