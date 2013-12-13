@@ -32,6 +32,8 @@ Requires:
 - qmlnotes
 - qt-components-qt5-gallery
 - qt5-qtquickcontrols-nemo-examples
+# the lean and mean screenshot app
+- lipstick-qt5-tools-ui
 #No Qt5 port# - qtflyingbus
 #No Qt5 port# - qtodo
 #No Qt5 port# - redak
