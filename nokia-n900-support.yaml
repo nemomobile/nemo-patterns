@@ -5,6 +5,8 @@ Requires:
 - bme-rx-51-bin
 - contextkit-maemo-battery-rx51-bin
 - dsme
+# This package contains mce configuration files for legacy hw
+- mce-config-legacy
 # Requires older gst-plugins-bad-free. Consider forking this
 # to adaptation repository.
 #- gst-nokia-camera
