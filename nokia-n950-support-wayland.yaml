@@ -5,6 +5,8 @@ Requires:
 - contextkit-plugin-power-bme
 - contextkit-plugin-kbslider
 - dsme
+# This package contains mce configuration files for legacy hw
+- mce-config-legacy
 - gstreamer0.10-nokia-videosrc
 - gst-omapfb
 - kernel-adaptation-n950
