@@ -2,7 +2,7 @@ Description: Nemo UX
 Name: nemo-ux
 Requires:
 - ce-mtf-configs
-- lipstick-colorful-home
+- lipstick-glacier-home-qt5
 - meegotouch-community-l10n
 - meegotouch-compositor
 - meegotouch-compositor-gestures
